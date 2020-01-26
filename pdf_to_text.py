@@ -7,7 +7,7 @@ from io import BytesIO
 
 import warnings
 Image.MAX_IMAGE_PIXELS = None
-#warnings.simplefilter('ignore', Image.DecompressionBombWarning)
+warnings.simplefilter('ignore', Image.DecompressionBombWarning)
 
 PDF_file = "./file.pdf"
 
